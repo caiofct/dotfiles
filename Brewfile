@@ -48,8 +48,6 @@ brew "youtube-dl"
 brew "zlib"
 brew "zplug"
 brew "zsh"
-brew "koekeishiya/formulae/skhd"
-brew "koekeishiya/formulae/yabai"
 
 cask "1password"
 cask "alacritty"
