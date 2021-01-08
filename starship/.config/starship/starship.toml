@@ -1,2 +1,29 @@
-[character]
-symbol = "λ"
+format = """\
+  $directory\
+  $git_branch\
+  $git_commit\
+  $git_state\
+  $git_status\
+  $package\
+  $ruby\
+  $cmd_duration\
+  $line_break\
+  $character\
+"""
+
+[cmd_duration]
+show_milliseconds = true
+style = "bold grey"
+min_time = 1_000
+
+[directory]
+fish_style_pwd_dir_length = 1
+truncation_length = 2
+
+[git_branch]
+symbol = "🌱"
+
+[time]
+disabled = false
+format = "[%T]"
+style = "dimmed black"
