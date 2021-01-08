@@ -14,11 +14,12 @@ env:
     TERM: xterm-256color
 
 window:
-    # Window dimensions in character columns and lines
-    # (changes require restart)
-    #dimensions:
-    #    columns: 80
-    #    lines: 24
+    dimensions:
+        columns: 0
+        lines: 0
+    dynamic_padding: false
+    decorations: none
+    startup_mode: Windowed
 
     # Adds this many blank pixels of padding around the window
     # Units are physical pixels; this is not DPI aware.
@@ -84,7 +85,7 @@ font:
         # style: Italic
 
     # Point size of the font
-    size: 13.0
+    size: 18.5
 
     # Offset is the extra space around each character. offset.y can be thought of
     # as modifying the linespacing, and offset.x as modifying the letter spacing.
