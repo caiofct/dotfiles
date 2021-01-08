@@ -6,8 +6,6 @@ Dotfiles for my Macbook Pro 16,1 running macOS Big Sur 11.1.
 ![vim and tmux](https://user-images.githubusercontent.com/15176096/71633424-2f09dc00-2be2-11ea-9c15-a4f492b7ea68.png)
 
 -   Terminal: [Alacritty](https://github.com/jwilm/alacritty) using zsh w/ [starship prompt](https://starship.rs/) and [color-ls](https://github.com/athityakumar/colorls)
--   Window management: [yabai](https://github.com/koekeishiya/yabai)
--   Hotkeys: [skhd](https://github.com/koekeishiya/skhd)
 -   Vim: [neovim](https://neovim.io/) with [Vundle](https://github.com/VundleVim/Vundle.vim) to manage plugins
 -   Tools: [tmux](https://github.com/tmux/tmux), [z](https://github.com/rupa/z), [fzf](https://github.com/junegunn/fzf)
 
@@ -29,8 +27,6 @@ This expands to [run.sh](https://github.com/caiofct/dotfiles/blob/master/run.sh)
     -   z
     -   git
     -   colorls
-    -   skhd
-    -   yabai
     -   starship
 -   Shell environment configs:
     -   `.zshrc`
