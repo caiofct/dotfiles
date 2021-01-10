@@ -2,7 +2,12 @@
 
 Dotfiles for my Macbook Pro 16,1 running macOS Big Sur 11.1.
 
+Alacritty with zsh, tmux, starship prompt and colorls
+
 ![alacritty with zsh, tmux, starship prompt and colorls](https://raw.githubusercontent.com/caiofct/dotfiles/main/images/alacritty%2Btmux.png)
+
+Neovim
+
 ![neovim](https://raw.githubusercontent.com/caiofct/dotfiles/main/images/vim.png)
 
 -   Terminal: [Alacritty](https://github.com/jwilm/alacritty) using zsh w/ [starship prompt](https://starship.rs/) and [color-ls](https://github.com/athityakumar/colorls)
