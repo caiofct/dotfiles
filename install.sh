@@ -63,8 +63,10 @@ main() {
     sudo gem install colorls >/dev/null
 
     printf "👽  Installing vim-plug\n"
-    curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-    	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+    printf "👽 Done! Don't forget to run :PlugInstall inside neovim for the first time to install all plugins!"
 
     printf "🐗  Stow dotfiles\n"
     stow alacritty colorls fzf git nvim skhd starship tmux vim yabai z zsh
