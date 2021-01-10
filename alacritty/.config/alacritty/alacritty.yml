@@ -14,9 +14,15 @@ env:
     TERM: xterm-256color
 
 window:
+    # My resolution is 1440p so I prefer to use the full width and only partial
+    # height window to make it work like a quake terminal from the old days ;)
     dimensions:
-        columns: 0
-        lines: 0
+        columns: 1440
+        lines: 30
+    # Pin the window to the top position of the screen.
+    position:
+        x: 0
+        y: 0
     dynamic_padding: false
     decorations: none
     startup_mode: Windowed
@@ -226,15 +232,12 @@ unfocused_hollow_cursor: true
 # Live config reload (changes require restart)
 live_config_reload: true
 
-# Shell
-#
-# You can set shell.program to the path of your favorite shell, e.g. /bin/fish.
-# Entries in shell.args are passed unmodified as arguments to the shell.
-#
-# shell:
-#   program: /bin/bash
-#   args:
-#     - --login
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
 
 # Setup some amazing custom key bindings here - Best thing is you can setup key bindings
 # using Mac's 'command' to control your tmux.
