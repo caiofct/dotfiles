@@ -12,7 +12,6 @@ install_brew() {
 
     printf "Installing homebrew packages..."
     brew bundle
-    sudo gem install colorls
 }
 
 create_dirs() {
@@ -59,9 +58,6 @@ main() {
     # dont set conda clutter in zshrc
     conda config --set auto_activate_base false
 
-    printf "🌈  Installing colorls\n"
-    sudo gem install colorls >/dev/null
-
     printf "👽  Installing vim-plug\n"
     sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -69,7 +65,7 @@ main() {
     printf "👽 Done! Don't forget to run :PlugInstall inside neovim for the first time to install all plugins!"
 
     printf "🐗  Stow dotfiles\n"
-    stow alacritty colorls fzf git nvim skhd starship tmux vim yabai z zsh
+    stow alacritty fzf git nvim skhd starship tmux vim yabai z zsh
 
     printf "✨  Done!\n"
 }

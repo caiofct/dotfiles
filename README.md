@@ -2,15 +2,15 @@
 
 Dotfiles for my Macbook Pro 16,1 running macOS Big Sur 11.1.
 
-Alacritty with zsh, tmux, starship prompt and colorls
+Alacritty with zsh, tmux, starship prompt
 
-![alacritty with zsh, tmux, starship prompt and colorls](https://raw.githubusercontent.com/caiofct/dotfiles/main/images/alacritty%2Btmux.png)
+![alacritty with zsh, tmux, starship prompt](https://raw.githubusercontent.com/caiofct/dotfiles/main/images/alacritty%2Btmux.png)
 
 Neovim
 
 ![neovim](https://raw.githubusercontent.com/caiofct/dotfiles/main/images/vim.png)
 
--   Terminal: [Alacritty](https://github.com/jwilm/alacritty) using zsh w/ [starship prompt](https://starship.rs/) and [color-ls](https://github.com/athityakumar/colorls)
+-   Terminal: [Alacritty](https://github.com/jwilm/alacritty) using zsh w/ [starship prompt](https://starship.rs/)
 -   Vim: [neovim](https://neovim.io/) with [vim-plug](https://github.com/junegunn/vim-plug) to manage plugins
 -   Tools: [tmux](https://github.com/tmux/tmux), [z](https://github.com/rupa/z), [fzf](https://github.com/junegunn/fzf)
 
@@ -31,7 +31,6 @@ This expands to [run.sh](https://github.com/caiofct/dotfiles/blob/master/run.sh)
     -   fzf
     -   z
     -   git
-    -   colorls
     -   starship
 -   Shell environment configs:
     -   `.zshrc`
