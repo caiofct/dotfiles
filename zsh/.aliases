@@ -276,7 +276,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias stfu="osascript -e 'set volume output muted true'"
 
 # Intricately Aliases
-alias sconsole="cd ~/Intricately/cloudsniff/ && docker-compose run cloudsniff rails c"
+alias ily_deps="cd ~/Intricately/cloudsniff/ && docker-compose up postgres redis mongo dynamodb es_main smtp"
 
 # use gitignore.io cmd line tool
 gi() {

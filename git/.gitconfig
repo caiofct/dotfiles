@@ -17,6 +17,8 @@
   colorMoved = zebra
 [push]
   default = current
+[pull]
+  ff = true
 [merge]
   ff = false
 [commit]
@@ -31,3 +33,5 @@
 [user]
 	name = caiofct
 	email = caiofct@gmail.com
+[init]
+	defaultBranch = main
